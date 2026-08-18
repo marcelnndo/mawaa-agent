@@ -1,0 +1,26 @@
+{
+  "name": "@arcelnando/mawaa",
+  "version": "0.1.1",
+  "description": "Mawaa AI coding agent for the terminal",
+  "main": "agent.cjs",
+  "bin": {
+    "mawaa": "bin/mawaa.cjs"
+  },
+  "files": [
+    "agent.cjs",
+    "runner.cjs",
+    "process-manager.cjs",
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "terminal",
+    "cli",
+    "developer-tools"
+  ],
+  "license": "MIT"
+}
