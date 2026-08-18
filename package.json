@@ -22,5 +22,8 @@
     "cli",
     "developer-tools"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/mawaa.cjs"
+  }
 }

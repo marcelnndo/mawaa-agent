@@ -24,10 +24,19 @@ const line = (c = '─', n = 46) => c.repeat(n);
 
 function banner() {
   console.log();
-  console.log(color(C.cyan + C.bold, '╭──────────────────────────────────────────────╮'));
-  console.log(color(C.cyan + C.bold, '│                 M A W A A                    │'));
-  console.log(color(C.cyan + C.bold, '│             AI CODING AGENT                  │'));
-  console.log(color(C.cyan + C.bold, '╰──────────────────────────────────────────────╯'));
+
+  console.log(color(C.gray + C.bold, "╭────────────────────────────────────────────────────────────╮"));
+  console.log(color(C.gray,          "│                                                            │"));
+  console.log(color(C.blue + C.bold, "__  __                                           _           "));
+  console.log(color(C.blue + C.bold, "|  \\/  |__ ___ __ ____ _ __ _   __ _ __ _ ___ _ _| |_        "));
+  console.log(color(C.cyan + C.bold, "| |\\/| / _` \\ V  V / _` / _` | / _` / _` / -_) ' \\  _|      "));
+  console.log(color(C.cyan + C.bold, "|_|  |_\\__,_|\\_/\\_/\\__,_\\__,_| \\__,_\\__, \\___|_||_\\__|      "));
+  console.log(color(C.blue + C.bold, "                                     |___/                   "));
+  console.log(color(C.gray,          "│                                                            │"));
+  console.log(color(C.cyan + C.bold, "│                    MAWAA AGENT                             │"));
+  console.log(color(C.gray,          "│                     arcelnando                             │"));
+  console.log(color(C.gray,          "│                                                            │"));
+  console.log(color(C.gray + C.bold, "╰────────────────────────────────────────────────────────────╯"));
   console.log();
 }
 
